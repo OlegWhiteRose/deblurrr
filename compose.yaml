@@ -1,0 +1,8 @@
+services:
+  libs:
+    build:
+      lib/
+    ports:
+      - 4444:4444
+    volumes:
+      - "./deploy:/mydir/deploy"
