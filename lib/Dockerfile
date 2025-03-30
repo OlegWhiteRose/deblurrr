@@ -13,4 +13,3 @@ RUN apt update && \
     chmod u+x build.sh && \
     ./build.sh setup_root
 
-ENTRYPOINT ["python3", "install_govna.py"]
